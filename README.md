@@ -10,3 +10,12 @@ JupyterLite is being tested against modern web browsers:
 
 - Firefox 90+
 - Chromium 89+
+
+## Additional Packages
+
+Inside a notebook, one can do:
+
+```
+import piplite
+await piplite.install("seaborn")
+```
